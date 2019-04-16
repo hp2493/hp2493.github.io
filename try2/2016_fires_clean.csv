@@ -2,7 +2,6 @@
 29648,Point,FWS,43558,USLABBR,Big Branch Marsh National Wildlife Refuge,91406,Lorelei,2016USLABBRKR5M,KR5M,Human,0,0,B,2, ,10/10/16,Louisiana,22,22,30.327274,-90.001112,0.5
 29902,Point,FWS,33510,USIADSR,Desoto National Wildlife Refuge,89722,DeSoto 1,2016USIADSRJ78N,J78N,Undetermined,0,0,B,2, ,4/10/16,Iowa,19,19,41.493458,-96.006784,0.5
 30112,Point,FWS,13700,USWAHFR,Hanford Reach National Monument/Saddle Mountain National Wildlife Refuge,91451,HWY 24 MP 56.5 B,2016USWAHFRKSS6,KSS6,Human,0,0,B,2, ,10/11/16,Washington,53,53,46.73809,-119.54633,0.5
-30706,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,89662,Puerto Diablo -1,2016USPRVQRJ71Z,J71Z,Human,0,0,B,2, ,4/5/16,Puerto Rico,72,72,18.139167,-65.33,0.5
 30819,Point,FWS,52550,USNYMZR,Montezuma National Wildlife Refuge,89900,NY MZR FY16 WF St Lawrence HQ Field,2016USNYMZRJ8RP,J8RP,Undetermined,0,0,B,2, ,4/25/16,New York,36,36,44.414847,-75.365363,0.5
 455029,Point,BIA,PAR,CAHIA,Hoopa Valley Tribe,691064,Lake,8,J79A,Human,0,0,NR,0,3,4/6/16,California,6,6,0,0,0.5
 778134,Point,NPS,IMRO,MTGNP,Glacier National Park,696619,176,14,KM8Z,Human,0,0,B,2,3,8/22/16,Montana,30,30,0,0,0.5
@@ -1007,7 +1006,6 @@
 719241,Point,BLM,OR,ORMED,Medford District,691808,Baker Creek,657,J874,Human,30,0,B,2,1,5/18/16,Oregon,41,41,42.6762,-123.2476,1
 727783,Point,BLM,OR,ORSAD,Salem District,699742,Beck Road,109,KKY3,Human,10,0,B,2,1,8/4/16,Oregon,41,41,45.01149,-123.38,1
 818097,Point,NPS,PWRO,CARNP,Point Reyes National Seashore,693912,Pelican,1608,KEX9,Human,30,0,B,2,1,7/7/16,California,6,6,38.1475,-122.92,1
-30800,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91418,Devil Port lll,2016USPRVQRKR8Z,KR8Z,Human,0,0,B,2,1,10/3/16,Puerto Rico,72,72,18.143611,-65.326667,1
 351521,Point,BIA,GPR,NDFBA,Fort Berthold Agency,689997,JUNCTION,9,J7FH,Natural,32,0,B,2,1,3/15/16,North Dakota,38,38,47.7331,-102.7089,1
 351557,Point,BIA,GPR,NDFBA,Fort Berthold Agency,693320,CROW,45,KC6K,Human,26,0,B,2,1,6/30/16,North Dakota,38,38,47.515,-102.2678,1
 351561,Point,BIA,GPR,NDFBA,Fort Berthold Agency,693325,CIRCLE A,49,KD1R,Human,26,0,B,2,1,7/3/16,North Dakota,38,38,47.9481,-102.3506,1
@@ -1019,14 +1017,12 @@
 645456,Point,BLM,ID,IDBPD,Birds of Prey NCA,693984,OTR 13,543,KGJ7,Human,32,0,B,2,1,6/7/16,Idaho,16,16,43.2647,-116.0844,1
 645510,Point,BLM,ID,IDBPD,Birds of Prey NCA,694294,OTR 67,617,KHR9,Human,32,0,B,2,1,6/21/16,Idaho,16,16,43.19496,-116.1257,1
 645514,Point,BLM,ID,IDBPD,Birds of Prey NCA,694335,OTR 71,625,KHZ4,Human,32,0,B,2,1,6/23/16,Idaho,16,16,43.16556,-116.046,1
-26094,Point,FWS,41521,USPRCBR,Cabo Rojo National Wildlife Refuge,89558,Fence,2016USPRCBRJ7CD,J7CD,Human,0,0,B,2,1,3/19/16,Puerto Rico,72,72,17.96222,-67.19638,1
 26846,Point,FWS,13570,USORMAR,Malheur National Wildlife Refuge,90955,Sodhouse,2016USORMARKL2C,KL2C,Human,0,0,B,2,1,8/12/16,Oregon,41,41,43.26906,-118.8511,1
 26966,Point,FWS,43615,USMSMSR,Mississippi Sandhill Crane National Wildlife Refuge,91552,Mile Marker 61N,2016USMSMSRKTZ4,KTZ4,Undetermined,0,0,B,2,1,11/15/16,Mississippi,28,28,30.433611,-88.670833,1
 29071,Point,FWS,43615,USMSMSR,Mississippi Sandhill Crane National Wildlife Refuge,89173,Sanctuary2,2016USMSMSRJ550,J550,Human,0,0,B,2,1,2/17/16,Mississippi,28,28,30.428333,-88.766111,1
 29685,Point,FWS,43615,USMSMSR,Mississippi Sandhill Crane National Wildlife Refuge,91499,Mile Marker 59,2016USMSMSRKS7T,KS7T,Human,0,0,B,2,1,11/6/16,Mississippi,28,28,30.43278,-88.68083,1
 29744,Point,FWS,21552,USTXRGR,Lower Rio Grande Valley National Wildlife Refuge,89142,VILLARREALES BANCO 2,2016USTXRGRJ519,J519,Natural,0,0,B,2,1,2/11/16,Texas,48,48,26.260833,-98.648889,1
 29847,Point,FWS,32530,USWINCR,Necedah National Wildlife Refuge,89829,Highway 80,2016USWINCRJ8KF,J8KF,Undetermined,0,0,B,2,1,4/22/16,Wisconsin,55,55,44.10971,-90.11596,1
-29923,Point,FWS,41521,USPRCBR,Cabo Rojo National Wildlife Refuge,89599,Tower,2016USPRCBRJ7SY,J7SY,Human,0,0,B,2,1,4/5/16,Puerto Rico,72,72,17.978396,-67.159301,1
 30621,Point,FWS,62580,USNDDVR,Devils Lake Wetland Management District,90156,Waltz,2016USNDDVRJ9D5,J9D5,Undetermined,0,0,B,2,1,5/16/16,North Dakota,38,38,48.63983,-98.575421,1
 30724,Point,FWS,31531,USINBOR,Big Oaks National Wildlife Refuge,91610,Fence Fire,2016USINBORKT81,KT81,Human,0,0,B,2,1,11/18/16,Indiana,18,18,38.972,-85.4636,1
 31520,Point,FWS,43615,USMSMSR,Mississippi Sandhill Crane National Wildlife Refuge,89095,Sanctuary Fire,2016USMSMSRJ5SW,J5SW,Human,0,0,B,2,1,1/29/16,Mississippi,28,28,30.42875,-88.76642,1
@@ -1686,7 +1682,6 @@
 455073,Point,BIA,PAR,CAHIA,Hoopa Valley Tribe,692253,SUPPLY CREEK #3,52,J91T,Human,19,0,B,2,1,6/8/16,California,6,6,41.0531,-123.6797,1.5
 455079,Point,BIA,PAR,CAHIA,Hoopa Valley Tribe,692259,MILL YARD,58,J97Y,Human,19,0,B,2,1,6/11/16,California,6,6,41.0786,-123.6881,1.5
 719235,Point,BLM,OR,ORMED,Medford District,698436,Woodcock Mountain,533,KQ4N,Natural,0,0,B,2,1,9/21/16,Oregon,41,41,42.132868,-123.699497,1.5
-30708,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,89760,Puerto Diablo V,2016USPRVQRJ8C1,J8C1,Human,0,0,B,2,1,4/19/16,Puerto Rico,72,72,18.140833,-65.329722,1.5
 31638,Point,FS,2,215,White River National Forest,6772734,Jackstraw,40,KTD5,Human,9,4,B,2,1,11/9/16,Colorado,8,8,39.767222,-107.234167,1.5
 31639,Point,FS,2,215,White River National Forest,6772741,Dry Sweetwater,41,KUE3,Human,9,4,B,2,1,11/20/16,Colorado,8,8,39.820556,-107.201389,1.5
 31753,Point,FS,8,813,National Forests in Texas,6768953,Thacker Road,22,J55G,Human,9,9,B,2,1,2/17/16,Texas,48,48,31.399722,-94.2275,1.5
@@ -1992,15 +1987,11 @@
 571879,Point,BLM,AK,AKAFS,Alaska Fire Service,695514,Steamboat Creek,452,KFX0,Natural,0,0,B,2,1,7/13/16,Alaska,2,2,61.95,-157.83,2
 571948,Point,BLM,AK,AKAFS,Alaska Fire Service,695519,Little East Fork,537,KF6G,Natural,0,0,B,2,1,7/16/16,Alaska,2,2,62.4,-156.72,2
 616448,Point,BLM,CA,CANOD,NorCal District,700072,Cove,7461,KQF8,Human,30,0,B,2,1,9/8/16,California,6,6,41.06353,-124.15242,2
-29647,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91388,Devil Port ll,2016USPRVQRKR0N,KR0N,Human,0,0,B,2,1,9/30/16,Puerto Rico,72,72,18.143611,-65.33,2
-30000,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,89706,Puerto Diablo IV,2016USPRVQRJ75B,J75B,Human,0,0,B,2,1,4/14/16,Puerto Rico,72,72,18.141389,-65.329167,2
-30878,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91308,Devil Port -1,2016USPRVQRKRB9,KRB9,Human,0,0,B,2,1,9/26/16,Puerto Rico,72,72,18.145,-65.331667,2
 333639,Point,BIA,AKR,AKAKA,Alaska Regional Office,699343,Kwethluk River 2,434,KFT2,Natural,1,0,B,2,1,7/13/16,Alaska,2,2,60.68,-161.23,2
 397385,Point,BIA,MWR,MNMLA,Mille Lacs Tribe,701166,Smokey bear,1416,J8Z6,Human,26,0,B,2,1,5/8/16,Minnesota,27,27,46.5375,-93.2717,2
 26111,Point,FWS,13700,USWAHFR,Hanford Reach National Monument/Saddle Mountain National Wildlife Refuge,90051,Reach Fire,2016USWAHFRJ84G,J84G,Natural,0,0,B,2,1,5/14/16,Washington,53,53,46.683068,-119.651956,2
 26689,Point,FWS,41630,USNCALR,Alligator River National Wildlife Refuge,89282,Amysline,2016USNCALRJ6C1,J6C1,Human,0,0,B,2,1,2/29/16,North Carolina,37,37,35.95026,-75.8252,2
 26808,Point,FWS,81654,USCASJR,San Joaquin River National Wildlife Refuge,90776,Cove,2016USCASJRKH2N,KH2N,Human,0,0,B,2,1,7/25/16,California,6,6,37.639497,-121.217822,2
-30214,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,90516,Puerto Diablo VII,2016USPRVQRKC31,KC31,Human,0,0,B,2,1,6/30/16,Puerto Rico,72,72,18.14,-65.331111,2
 30249,Point,FWS,21552,USTXRGR,Lower Rio Grande Valley National Wildlife Refuge,89150,TOY,2016USTXRGRJ53R,J53R,Natural,0,0,B,2,1,2/13/16,Texas,48,48,26.237778,-98.670556,2
 31662,Point,FS,2,215,White River National Forest,6772506,Maroon,31,EKU9,Natural,1,1,B,2,1,9/13/16,Colorado,8,8,39.138889,-106.881389,2
 31730,Point,FS,8,804,Cherokee National Forest,6770771,Flag Day,31,KAP8,Human,9,4,B,2,1,6/13/16,Tennessee,47,47,35.170833,-84.593056,2
@@ -2206,7 +2197,6 @@
 345504,Point,BIA,EOR,OKOSA,Osage Agency,688800,Bow,8,J5TU,Human,30,0,B,2,1,1/30/16,Oklahoma,40,40,36.47764,-96.39783,2.2
 345543,Point,BIA,EOR,OKOSA,Osage Agency,689481,DJ,48,J6KW,Human,30,0,B,2,1,3/4/16,Oklahoma,40,40,36.4492,-96.08819,2.2
 709394,Point,BLM,OR,ORCBD,Coos Bay District,700833,Rhoda Creek Lane,722090,XXX1,Human,0,0,B,2,1,8/26/16,Oregon,41,41,43.0006,-124.1022,2.2
-29052,Point,FWS,41521,USPRCBR,Cabo Rojo National Wildlife Refuge,89105,Farm House,2016USPRCBRJ5TC,J5TC,Human,0,0,B,2,1,1/30/16,Puerto Rico,72,72,17.981111,-67.176389,2.2
 32480,Point,FS,2,203,Black Hills National Forest,6755474,Bear Lodge,116,EKT9,Natural,1,1,B,2,1,10/2/16,Wyoming,56,56,44.748889,-104.391944,2.2
 33737,Point,FS,4,408,Fishlake National Forest,6745498,Myrups,19,EKW5,Natural,1,1,B,2,1,8/13/16,Utah,49,49,38.0525,-111.286389,2.2
 34373,Point,FS,3,312,Tonto National Forest,6733634,Spring,119,KH43,Natural,1,1,B,2,1,7/24/16,Arizona,4,4,33.918889,-110.968611,2.2
@@ -2441,13 +2431,8 @@
 26469,Point,FWS,41580,USFLNKR,National Key Deer Refuge,89409,No Name Key,2016USFLNKRJ6UQ,J6UQ,Human,0,0,B,2,1,3/12/16,Florida,12,12,24.691183,-81.328473,3
 26610,Point,FWS,84555,USNVDSR,Desert National Wildlife Range,90334,Joe May,2016USNVDSRJ92F,J92F,Human,0,0,B,2,1,6/7/16,Nevada,32,32,36.4975,-115.394167,3
 26765,Point,FWS,21552,USTXRGR,Lower Rio Grande Valley National Wildlife Refuge,89639,WHITE RANCH,2016USTXRGRJ7Y7,J7Y7,Human,0,0,B,2,1,4/10/16,Texas,48,48,26.198056,-97.803056,3
-26991,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91459,Devil Port # 6,2016USPRVQRKSW0,KSW0,Human,0,0,B,2,1,10/14/16,Puerto Rico,72,72,18.138889,-65.327778,3
 28786,Point,FWS,13700,USWAHFR,Hanford Reach National Monument/Saddle Mountain National Wildlife Refuge,90415,Lower Saddle,2016USWAHFRKA17,KA17,Natural,0,0,B,2,1,6/16/16,Washington,53,53,46.759067,-119.584917,3
 29337,Point,FWS,13583,USORUMR,Umatilla National Wildlife Refuge,90490,Whitcomb,2016USORUMRKB79,KB79,Human,0,0,B,2,1,6/26/16,Washington,53,53,45.856746,-119.753514,3
-30324,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91457,Devil Port # 4,2016USPRVQRKSV6,KSV6,Human,0,0,B,2,1,10/10/16,Puerto Rico,72,72,18.138611,-65.329444,3
-30592,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91643,Brava,2016USPRVQRKUJ8,KUJ8,Human,0,0,B,2,1,11/14/16,Puerto Rico,72,72,18.14139,-65.28306,3
-30812,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91618,Devil Port #11,2016USPRVQRKT9M,KT9M,Human,0,0,B,2,1,11/11/16,Puerto Rico,72,72,18.138333,-65.326389,3
-30880,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91458,Devil Port  # 5,2016USPRVQRKSV9,KSV9,Human,0,0,B,2,1,10/16/16,Puerto Rico,72,72,18.138611,-65.328889,3
 31641,Point,FS,8,808,George Washington and Jefferson National Forest,6735078,Possum Hollow,112,J8CJ,Human,19,7,B,2,1,4/20/16,Virginia,51,51,36.904444,-82.418056,3
 31832,Point,FS,9,909,Superior National Forest,6767841,Hill Road,21,KTR3,Human,11,5,B,2,1,11/13/16,Minnesota,27,27,47.670833,-92.486944,3
 31873,Point,FS,8,812,Francis Marion and Sumter National Forests,6768300,Opposum Creek,32,KRR5,Human,8,4,B,2,1,10/2/16,South Carolina,45,45,34.761667,-83.318056,3
@@ -2680,7 +2665,6 @@
 364561,Point,BIA,GPR,NDSRA,Standing Rock Agency,700455,Arrow,163,KS8C,Human,30,0,B,2,1,11/6/16,South Dakota,46,46,45.7664,-101.0869,3.9
 688368,Point,BLM,NV,NVEKD,Elko Field Office,695456,Gibbs,100136,KJ0P,Natural,0,0,B,2,1,7/30/16,Nevada,32,32,41.515,-115.1842,3.9
 26324,Point,FWS,43664,USALKCR,Key Cave National Wildlife Refuge,91491,Key Cave Parking Lot Fire,2016USALKCRKS54,KS54,Human,0,0,B,2, ,4/17/16,Alabama,1,1,34.76388,-87.78527,4
-26551,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,89830,Puerto Diablo VI,2016USPRVQRJ8KD,J8KD,Human,0,0,B,2, ,4/21/16,Puerto Rico,72,72,18.144444,-65.328056,4
 770062,Point,NPS,IMRO,AZTZP,Tuzigoot National Monument,690148,Tuzigoot Piles,145,TUZ1,Human,0,0,B,2,4,3/30/16,Arizona,4,4,34.7669,-112.0222,4
 581569,Point,BLM,AZ,AZPHD,Phoenix District,692700,Corral FA,601,KCE7,Natural,0,0,NR,0,3,6/27/16,Arizona,4,4,34.2508,-111.9406,4
 647005,Point,BLM,ID,IDBUD,Burley Field Office,693991,Rural Assist 4,149,KF5R, ,0,0,NR,0,3,7/16/16,Idaho,16,16,42.7444,-113.4442,4
@@ -2708,7 +2692,6 @@
 455154,Point,BIA,PAR,CAHIA,Hoopa Valley Tribe,694006,Honeybunch 5,133,KF7R,Human,19,0,B,2,1,7/16/16,California,6,6,41.0236,-123.6489,4
 609177,Point,BLM,CA,CACND,Central California,692402,CONDON,1379,KA7C,Human,32,0,B,2,1,6/19/16,California,6,6,36.3167,-120.6175,4
 609243,Point,BLM,CA,CACND,Central California,696274,PARK,23417,KM1G,Human,30,0,B,2,1,8/15/16,California,6,6,38.680328,-120.977687,4
-29650,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91456,LIA-2,2016USPRVQRKSV2,KSV2,Human,0,0,B,2,1,10/5/16,Puerto Rico,72,72,18.141111,-65.295,4
 31772,Point,FS,8,811,National Forests in North Carolina,6768175,LEDBETTER,134,KS6L,Human,19,7,B,2,1,11/4/16,North Carolina,37,37,35.343056,-83.709167,4
 31922,Point,FS,8,811,National Forests in North Carolina,6767647,Buck Creek,141,KS8Z,Human,19,7,B,2,1,11/6/16,North Carolina,37,37,35.075,-83.6075,4
 32145,Point,FS,8,803,Chattahoochee-Oconee National Forests,6758688,Timber Bluff,46,EK2V,Human,30,9,B,2,1,10/23/16,Georgia,13,13,34.831111,-83.368889,4
@@ -2759,7 +2742,6 @@
 376972,Point,BIA,GPR,SDCRA,Cheyenne River Agency,689242,COYOTE,3,J6FG,Human,25,0,B,2,1,2/28/16,South Dakota,46,46,45.07623,-101.74668,4.1
 688344,Point,BLM,NV,NVEKD,Elko Field Office,694977,Nowhere,100065,KCC8,Human,0,0,B,2,1,6/27/16,Nevada,32,32,40.8614,-115.6664,4.1
 26825,Point,FWS,13583,USORUMR,Umatilla National Wildlife Refuge,90492,Lot B,2016USORUMRKB88,KB88,Human,0,0,B,2,1,6/26/16,Oregon,41,41,45.896724,-119.580106,4.1
-30559,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91530,Puerto Diablo #8,2016USPRVQRKTG7,KTG7,Human,0,0,B,2,1,10/28/16,Puerto Rico,72,72,18.143889,-65.326389,4.1
 32026,Point,FS,1,102,Beaverhead-Deerlodge National Forest,6734741,East Fork,28,KKC9,Natural,1,1,B,2,1,8/2/16,Montana,30,30,45.936667,-113.207778,4.1
 34696,Point,FS,2,213,San Juan National Forest,6742990,Winter Hills,8,EKU7,Natural,1,1,B,2,1,6/5/16,Colorado,8,8,37.172778,-106.892778,4.1
 34776,Point,FS,3,312,Tonto National Forest,6714036,Red,85,EKW0,Natural,1,1,B,2,1,6/28/16,Arizona,4,4,33.773333,-111.513056,4.1
@@ -2881,9 +2863,6 @@
 645446,Point,BLM,ID,IDBPD,Birds of Prey NCA,693862,OTR 1,520,KF7Q,Human,32,0,B,2,1,5/19/16,Idaho,16,16,43.3567,-116.3072,5
 645496,Point,BLM,ID,IDBPD,Birds of Prey NCA,694280,OTR 53,602,KHQ0,Human,32,0,B,2,1,6/13/16,Idaho,16,16,43.19461,-116.16411,5
 26650,Point,FWS,43615,USMSMSR,Mississippi Sandhill Crane National Wildlife Refuge,90436,Old Young Fire,2016USMSMSRKBB8,KBB8,Human,0,0,B,2,1,6/21/16,Mississippi,28,28,30.502501,-88.782499,5
-29714,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91617,Devil Port #10,2016USPRVQRKT9L,KT9L,Human,0,0,B,2,1,11/7/16,Puerto Rico,72,72,18.136667,-65.334722,5
-30416,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91648,Brava #2,2016USPRVQRKUL4,KUL4,Human,0,0,B,2,1,12/14/16,Puerto Rico,72,72,18.14139,-65.28306,5
-30719,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91460,Devil Port # 7,2016USPRVQRKSW1,KSW1,Human,0,0,B,2,1,10/17/16,Puerto Rico,72,72,18.1375,-65.334444,5
 30761,Point,FWS,41560,USFLLXR,Arthur R. Marshall Loxahatchee National Wildlife Refuge,90604,WRIGHT,2016USFLLXRKE0C,KE0C,Natural,0,0,B,2,1,7/7/16,Florida,12,12,26.433133,-80.29155,5
 31809,Point,FS,5,512,San Bernardino National Forest,6769027,Mariposa,59,KKY1,Human,30,9,B,2,1,8/4/16,California,6,6,34.172778,-117.266667,5
 31818,Point,FS,8,809,Ouachita National Forest,6768634,Reed Rifle Range,91,EK24,Natural,1,1,B,2,1,12/1/16,Arkansas,5,5,34,-93,5
@@ -3030,7 +3009,6 @@
 26273,Point,FWS,13290,USORWSR,Warm Springs National Fish Hatchery,91076,Hot Springs,2016USORWSRKM9V,KM9V,Natural,0,0,B,2,1,8/23/16,Oregon,41,41,44.876646,-121.23482,6
 26655,Point,FWS,21630,USOKSLR,Salt Plains National Wildlife Refuge,89669,Gray Fire,2016USOKSLRJ7PX,J7PX,Human,0,0,B,2,1,4/3/16,Oklahoma,40,40,36.81987,-98.22572,6
 28817,Point,FWS,81710,USCASKR,Stone Lakes National Wildlife Refuge,90597,I-5,2016USCASKRKET6,KET6,Human,0,0,B,2,1,7/2/16,California,6,6,38.343061,-121.469807,6
-28918,Point,FWS,41528,USPRVQR,Vieques National Wildlife Refuge,91531,Puerto Diablo #9,2016USPRVQRKTG9,KTG9,Human,0,0,B,2,1,11/1/16,Puerto Rico,72,72,18.142778,-65.326111,6
 31733,Point,FS,8,804,Cherokee National Forest,6770805,Bristow,36,EK2W,Natural,1,1,B,2,1,7/14/16,Tennessee,47,47,35.222222,-84.402222,6
 32025,Point,FS,1,102,Beaverhead-Deerlodge National Forest,6734726,Kit Carson,27,KJ29,Natural,1,1,B,2,1,7/31/16,Montana,30,30,46.210833,-112.546111,6
 32271,Point,FS,3,304,Coconino National Forest,6763939,Buckhorn,38,J8H6,Human,9,4,B,2,1,4/25/16,Arizona,4,4,34.566944,-111.496667,6
@@ -3635,7 +3613,6 @@
 835124,Point,NPS,SERO,FLBCP,Big Cypress National Preserve,692055,Fruit Fly,33,J9Q3,Natural,1,0,C,3,1,5/31/16,Florida,12,12,26.1728,-81.0644,14
 28849,Point,FWS,31513,USMIKWR,Kirtlands Warbler Wildlife Management Area,91164,Crawford 19 - LOW fire,2016USMIKWRKLK0,KLK0,Human,0,0,C,3, ,8/9/16,Michigan,26,26,44.758295,-84.37235,14.2
 628854,Point,BLM,CO,COCRD,Craig NW Center,697752,Johnson,398,KM8E,Human,0,0,C,3,1,8/22/16,Colorado,8,8,40.487635,-108.005392,14.2
-29826,Point,FWS,41521,USPRCBR,Cabo Rojo National Wildlife Refuge,89578,Weather Station,2016USPRCBRJ7FZ,J7FZ,Human,0,0,C,3,1,3/30/16,Puerto Rico,72,72,17.973889,-67.161389,14.2
 664849,Point,BLM,MT,MTMCD,Miles City Field Office,693171,Dugout,134,KD9W,Natural,0,0,C,3,1,7/5/16,Montana,30,30,45.7436,-106.1717,14.3
 33449,Point,FS,2,207,Nebraska National Forest,6748861,South Falls,27,EKU3,Natural,1,1,C,3,1,8/18/16,Nebraska,31,31,42.689722,-100.904167,14.3
 341381,Point,BIA,EOR,OKCNA,Cherokee Nation Tribe,689008,Good Fence,9,J5VA,Human,19,0,C,3,1,2/2/16,Oklahoma,40,40,35.6481,-94.5917,14.4
@@ -3950,7 +3927,6 @@
 797024,Point,NPS,MWRO,INIDP,Indiana Dunes National Lakeshore,691860,Miller 4 Fire,20,J8KY,Natural,30,0,C,3,1,4/25/16,Indiana,18,18,41.60408,-87.31344,22
 664959,Point,BLM,MT,MTMCD,Miles City Field Office,690577,Cook Mountain, ,J698,Natural,0,0,C,3,1,3/27/16,Montana,30,30,45.6319,-106.1717,22.1
 35742,Point,FS,1,111,Custer Gallatin National Forest,6714277,Cook Montain,8,J698,Human,30,9,C,3,1,3/27/16,Montana,30,30,45.631944,-106.171944,22.1
-30581,Point,FWS,41527,USPRLCR,Laguna Cartagena National Wildlife Refuge,89151,St. Valentin Day,2016USPRLCRJ53D,J53D,Human,0,0,C,3,1,2/13/16,Puerto Rico,72,72,18.012558,-67.091026,22.2
 377080,Point,BIA,GPR,SDCRA,Cheyenne River Agency,698630,GREEN,111,KRG5,Human,4,0,C,3,1,9/29/16,South Dakota,46,46,45.14423,-101.18121,22.3
 420949,Point,BIA,NAR,AZNAA,Navajo Regional Office,692472,24 Fire,95,KA23,Human,13,0,C,3,1,6/17/16,New Mexico,35,35,35.810014,-107.23219,22.3
 471269,Point,BIA,RMR,MTCRA,Crow Agency,699352,MEDICINETAIL COULEE,99,KJ8P,Natural,1,0,C,3,1,7/31/16,Montana,30,30,45.5578,-107.4239,22.3

@@ -24,12 +24,12 @@
 			//Function for converting CSV values from strings to Dates and numbers
 			var rowConverter = function(d) {
 				return {
-					date: new Date(+d.Date),  //Make a new Date object for each year + month
+					date: new Date(+d.date),  //Make a new Date object for each year + month
 					  //Convert from string to float
 				};
 			}
 			
-            d3.csv("Air-Quality.csv", rowConverter)
+            d3.csv("Air-Quality.csv")
 			
             .then(function(data){
                 console.table(data)
