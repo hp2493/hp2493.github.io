@@ -1,3 +1,5 @@
+
+//Referenced Mike Bostock's code https://observablehq.com/@d3/grouped-bar-chart
 (function() {
   const chart1 = d3.select('#area1');
   
