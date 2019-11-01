@@ -1,8 +1,9 @@
 (function() {
   const chart2 = d3.select('#area2');
 
+const g2 = chart2.append('g'); 
 
-var svg = d3.select("svg"),
+var svg = d3.select("#area2"),
     margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = +svg.attr("width") - margin.left - margin.right,
     height = +svg.attr("height") - margin.top - margin.bottom,
@@ -30,7 +31,7 @@ d3.csv("data/Characteristics.csv", function(d, i, columns) {
   x0.domain(data.map(function(d) { return d.State; }));
   x1.domain(keys).rangeRound([0, x0.bandwidth()]);
   y.domain([0, d3.max(data, function(d) { return d3.max(keys, function(key) { return d[key]; }); })]).nice();
-  g.append("g")
+  g2.append("g")
     .selectAll("g")
     .data(data)
     .enter().append("g")
@@ -38,14 +39,14 @@ d3.csv("data/Characteristics.csv", function(d, i, columns) {
     .selectAll("rect")
     .data(function(d) { return keys.map(function(key) { return {key: key, value: d[key]}; }); })
     .enter().append("rect")
-      .attr("x", function(d) { return x1(d.key); })
-      .attr("y", function(d) { return y(d.value); })
+      .attr("x", function(d) { return x1(d.key)+40; })
+      .attr("y", function(d) { return y(d.value)+5; })
       .attr("width", x1.bandwidth())
       .attr("height", function(d) { return height - y(d.value); })
       .attr("fill", function(d) { return z(d.key); });
 
 //percent labels
-  g.append("g")
+  g2.append("g")
     .selectAll("g")
     .data(data)
     .enter().append("g")
@@ -53,8 +54,8 @@ d3.csv("data/Characteristics.csv", function(d, i, columns) {
     .selectAll("text")
     .data(function(d) { return keys.map(function(key) { return {key: key, value: d[key]}; }); })
     .enter().append("text")
-      .attr("x", function(d) { return x1(d.key)+20; })
-      .attr("y", function(d) { return y(d.value)+15; })
+      .attr("x", function(d) { return x1(d.key)+60; })
+      .attr("y", function(d) { return y(d.value)+20; })
   .attr("font-family", "sans-serif")
   .attr("font-size", "15px")
       .attr("text-anchor", "start")
@@ -63,21 +64,22 @@ d3.csv("data/Characteristics.csv", function(d, i, columns) {
   .text(function(d)  {return (d.value*100 + "%")} )
    
  
-
-  g.append("g")
+//x axis
+  g2.append("g")
       .attr("class", "axis")
-      .attr("transform", "translate(0," + height + ")")
+      .attr("transform", "translate(40," + height + ")")
 
       .call(d3.axisBottom(x0));
 	  
-svg.append("g")
+	  //y axis
+g2.append("g")
 	.attr("class", "axis")
-	.attr("transform", "translate(40,20)")
+	.attr("transform", "translate(40,5)")
 	.call(yAxis);
 	
 
 	
-  var legend = g.append("g")
+  var legend = g2.append("g")
       .attr("font-family", "sans-serif")
       .attr("font-size", 11)
       .attr("text-anchor", "end")
