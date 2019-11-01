@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://d3js.org/d3.v4.min.js"></script> 
+<title>Assignment 3: Visualization</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+.axis .domain {
+  display: none;
+}
+.axis { font: 12px sans-serif; }
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">South Dakota Opportunity Atlas</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Background</a>
+      <a href="#menu" class="w3-bar-item w3-button">Comparisons</a>
+      <a href="#contact" class="w3-bar-item w3-button">More Information</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src=" " alt="Household Income, SD" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="img/SD_map.jpg" class="w3-round w3-image w3-opacity-min" alt="SD Map" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Background</h1>
+      <h5 class="w3-center">South Dakota</h5>
+      <p class="w3-large">As a whole, counties depicted in the South Dakota Opportunity Atlas have high household income outcomes for low income families. However a few counties stand out as having comparatively low household income outcomes for low income families. To learn more about why this might be the case, I compared Oglala Lakota County, which has the lowest outcome for household income, and Harding County, which has the highest outcome.  Low income children who grow up in Oglala Lakota County earn an average of <strong>$15,000</strong> per year. Low income children who grow up in Harding County earn almost five times that amount at <strong>$71,000</strong>. 
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Comparisons</h1><br>
+	  
+      <h4>Outcomes</h4>
+      <p class="w3-text-grey">The outcomes for low income children who grow up in Oglala Lakota County vary from those of children who grow up in Harding County. </p><br>
+	  
+
+		  
+		  <svg id = "area1" width="800" height="500"></svg>
+		  <script src="Outcomes.js"></script>
+		  
+    <div class="w3-col l6 w3-padding-large">
+    
+      <h4>Characteristics</h4>
+      <p class="w3-text-grey">To find out more about why the outcomes vary between the two counties, one can look to the characteristics of each county.</p><br>
+    
+  <svg id = "area2" width="800" height="500"></svg>
+  <script src="Characteristics.js"></script>
+	
+
+    </div>
+    
+
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>More Information</h1><br>
+    <p>For more information, please peruse the Opportunity Atlas site.</p>
+
+
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
