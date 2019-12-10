@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<title>Bike Lanes / Bikers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="d3.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("new-york-bike-traffic.jpg");
+  min-height: 30%;
+}
+
+.menu {
+  display: none;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+div.tooltip { 
+          position: absolute;     
+          text-align: left;     
+          width: 100 px;          
+          height: 40px;         
+          padding: 2px;       
+          font: 10px sans-serif;    
+          background: #fff; 
+          border: 0px;        
+          pointer-events: none;     
+      }
+	path:hover {
+		stroke: white;
+		stroke-width: 2;
+	}
+	
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:50px">Bike Lanes<br>and Bikers</span>
+  </div>
+  
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-24"><span class="w3-tag w3-wide">Does building more bike lanes really mean more bikers?</span></h5>
+	    <p>By Helen Pierson</p>
+    <p>New York City’s efforts to expand its networks of bicycle lanes have been widely publicized and praised. As of 2019, the city has over 1,000 miles of bike lanes throughout the five boroughs, and has released plans to build at least 250 miles more. But is changing the transportation culture of a city as simple as adding some paint on the ground or a few bollards? Whether or not someone chooses to ride a bike instead of the myriad of other travel options in New York is certainly influenced by the existence of a dedicated bicycle lane, but it is also influenced by a myriad of other factors. These can range from the cultural connotations of riding a bicycle (Is it a hipster statement that you care about the environment? Or an indication that you can’t afford any other means of transportation?), to the surrounding infrastructure or lack thereof (Will you find a place to lock your bike? Will it get stolen? Do you have a space to store your bike at home?). While building a robust network of infrastructure is important, a city cannot hope to change its culture in a meaningful way without addressing the multitudes of other factors that go into choosing to ride a bike. </p>
+
+    
+    <img src="cars.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+       <p>Before the popularization of the mass-market automobile, bicycles were one of the most affordable and efficient modes of transportation. With the rise of affordable automobiles and car-based mobility in the 1950’s, road networks and land use patterns were redesigned to support easy travel by car. For roads, that meant expanding and streamlining streets so that more cars could travel faster.  With political will, public opinion and public money supporting the car, streets in American cities became increasingly unfriendly for pedestrians and bikes.</p>
+       
+           <img src="lanes_10_17_.gif"  class="center">
+        <p>In the early 2000’s, however, the tides began to change. People who could afford to choose were moving back into cities, and a culture of bicycle activism that viewed the bicycle as a “powerful tool for community resilience and grassroots action” (Adonia Lugo: Bicycle / Race, 2018) was growing. That advocacy, driven by the view that if you build more bicycle infrastructure, more people will bike, combined with an increased awareness of the environmental and health benefits of biking over driving catalyzed many cities in the US to begin re-adapting streets to accommodate bicycle lanes. In New York, Janette Sadik-Khan, the commissioner of the Department of Transportation began building bike lanes in 2007, widely publicizing the city’s efforts. From 2010 to 2017, the city’s bike infrastructure went from 620 miles of bike lanes throughout the five boroughs to nearly 1,000, expanding by over 50%. <strong> But does building more bike lanes translate directly to more people biking? </strong> </p>
+        
+         <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Mapping bike lanes and bikers</span></h5>
+         
+   <p>The map below is a bivariate choropleth depicting a census tract scale comparison of the change in density of bike lanes and the change in percentage of New Yorkers who bike (approximated through US census travel to work data) between 2010 and 2017.  ALthough some areas, such as Park Slope and Midtown Manhattan, show a concurrent rise in bike lanes and bike commuters, many areas show an increase in one or the other. Displaying these two factors together is not meant to be an argument for ceasing any investment in bicycle infrastructure. <strong> Instead, it is meant to highlight the need for the city to combine culturally responsive outreach and education with the construction of safe and useful bike lanes that meet community needs. </strong> </p>
+   
+   <!-- This section is the map -->
+         <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Increase in Bike Lanes and Bike Commuters, NYC 2010 - 2017</span></h5>
+		 <div class = "center">
+   		<script type="text/javascript">
+
+   			//Width and height
+   			var w = 800;
+   			var h = 800;
+
+   			//Define map projection
+   			var projection = d3.geoAlbers()
+   							.center([0,40.694])
+   							.rotate([74.0,0])
+   							.parallels([39,41])
+   							.translate([w/2,(h/2)+50])
+   							.scale(100000) // scale factor
+			
+   			// d3.geoAlbersUsa()
+   // 							   .translate([-4000, 1100])
+   // 							   .scale([15000]);
+   //
+
+
+   			//Define path generator
+   			var path = d3.geoPath()
+   							 .projection(projection);
+							 
+   		//Define quantize scale to sort data values into buckets of color
+   		var color = d3.scaleOrdinal()
+   							.domain(["00", "01", "02", "10", "11", "12", "20", "21", "22"])
+   							.range(["#e8e8e8", "#b5c0da", "#6c83b5",
+         "#b8d6be", "#90b2b3", "#567994",
+         "#73ae80", "#5a9178", "#2a5a5b"]);
+
+   			//Create SVG element
+   			var svg = d3.select("body")
+   						.append("svg")
+   						.attr("width", w)
+   						.attr("height", h)
+		 .attr("x", 500)
+   	.call(d3.zoom().on("zoom", function () {
+   	    svg.attr("transform", d3.event.transform)
+
+   	 }))
+   	 // .on("wheel.zoom", null)
+   	 .append("g")
+	
+
+						
+   				    var tooltip = d3.select("body").append("div") 
+   				        .attr("class", "tooltip")       
+   				        .style("opacity", 0);
+						
+   						var f = d3.format(".1f");
+   						// var p = d3.format("%")
+
+
+
+   			//Load in GeoJSON data
+   			d3.json("ct_bike.json", function(json) {
+				
+				
+				
+   				//Bind data and create one path per GeoJSON feature
+   				svg.selectAll("path")
+   				   .data(json.features)
+   				   .enter()
+   				   .append("path")
+   				   .attr("d", path)
+   			   .style("fill", function(d) {
+   			   		//Get data value
+   			   		var value = d.properties.lane_biker;
+			   		
+   				   		{return color(value);
+
+   			   		}
+   			   })
+
+			
+   			   .on("mouseover", function(d) {    
+   			               tooltip.transition()    
+   			               .duration(200)    
+   			               .style("opacity", .9);    
+   			               tooltip.html( " <strong>" + 						d.properties.boro_name + " Census Tract "
+   						   + d.properties.ctlabel + "</strong><br/>" + 
+   							   " <strong> Lane Change: </strong>" + f(d.properties.lane_change) + " ft/ac" + 
+   							 "<br/>"  + "<strong> Biker Change: </strong>" + (d.properties.biker_change) + "%" 
+   						   )  
+			               
+   			               .style("left", (d3.event.pageX + 10) + "px")   
+   			               .style("top", (d3.event.pageY - 45) + "px");  
+   			             })          
+   			             .on("mouseout", function(d) {   
+   			               tooltip.transition()    
+   			               .duration(500)    
+   			               .style("opacity", 0); 
+   			             });
+						 
+					 var myimage = svg.append('image')
+					     .attr('xlink:href', 'Legend.png')
+					     .attr('width', 120)
+					     .attr('height', 120)
+						 .attr("x", 100)
+						 .attr("y", 150)
+						 
+				   svg.append("text")
+				   .attr("class", "key")
+				   .attr("x", w/3)
+				   .attr("y", h-10)
+				   .text("sources: NYC Open Data, ACS 5 year estimates, 2010 and 2017")
+				   .attr("font-family", "sans-serif")
+				   .attr("fill", "#565656")
+				   .attr("font-size", 10)
+   		                 // d3.select("#button0")
+   		                 // .on("click",function(){//when it is clicked
+   		                 //     updateChart(data,"c1")//we update the data in the chart to column c3
+   		                 //     d3.selectAll("circle")
+   		                 //     .attr("fill","#197EC4")
+   		                 //     d3.selectAll("text")
+   		                 //     .attr("fill","#197EC4")
+   		                 // })
+		
+   			});
+			
+   		</script>
+</div>
+			<!-- map end -->
+             
+  </div>
+</div>
+
+
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
